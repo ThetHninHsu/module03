@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    border:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav {
+    background-color: #f5eb92be;
+    border: 2px solid rgba(255, 0, 0, 0.561);
+}
+
+.item {
+    border: 2px solid gold;
+    padding: 20px;
+    background-color: #f654545b;
+    margin-bottom: 10px;   
+   
+}
+
+.item > a {
+    color: red;
+    font-weight: 400;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.575);
+}
+
+.title {
+    font-weight: bold;
+    color: blue;
+    font-size: 20px;
+} 
+
